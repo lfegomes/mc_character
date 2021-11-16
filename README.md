@@ -1,9 +1,12 @@
 # mc_character
 A 'Marvel Comics characters' app build in Flutter with Clean Architecture.
 
-## How to test
+## How to use
 
-- After cloning the repo, get your own Marvel API developer keys at developer.marvel.com/
-- Put them in the file lib/core/utils/constants.dart
+- Clone the repo.
+- Get your own API keys (public and private) at [developer.marvel.com/]
+- Put the keys in the file [lib/core/utils/constants.dart].
 
+## Unit testing
 
+- Tests were run with constant value ITEMS_PER_PAGE equal to 10.

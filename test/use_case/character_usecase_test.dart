@@ -7,6 +7,10 @@ import 'package:mockito/mockito.dart';
 import '../helper/mock.dart';
 import 'character_usecase_test.mocks.dart';
 
+///
+/// Test was run with constant value ITEMS_PER_PAGE = 10
+///
+
 @GenerateMocks([ICharacterRepo])
 void main() {
   late ICharacterRepo mockRepository;
@@ -19,8 +23,6 @@ void main() {
 
   final characterListingPage1 = getMockCharacterRawData();
   final characterListingPage2 = getMockCharacterRawData();
-
-  /// Test was run using {Constant.LIMIT_PERPAGE = 10}
 
   group('Get character page', () {
     test('Should return page first of characters', () async {

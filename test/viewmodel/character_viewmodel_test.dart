@@ -8,6 +8,10 @@ import 'package:mockito/mockito.dart';
 import '../helper/mock.dart';
 import 'character_viewmodel_test.mocks.dart';
 
+///
+/// Test was run with constant value ITEMS_PER_PAGE = 10
+///
+
 @GenerateMocks([CharacterUseCase])
 void main() {
   late MockCharacterUseCase useCase;
